@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Product } from "@/pages/types";
 import ProductCard from "./Productcard";
+import Image from "next/image";
 
 const Menu = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -103,9 +104,11 @@ const Menu = () => {
                         key={product.id}
                         className="flex justify-center mb-6 transform transition-all duration-300 ease-in-out"
                       >
-                        <img
+                        <Image
                           src={product.image}
                           alt={product.name}
+                          width={100}
+                          height={100}
                           className="w-20 h-40 sm:w-24 inline-block transition-transform duration-300 ease-in-out"
                         />
                         <span className="ml-4 text-lg font-medium">
