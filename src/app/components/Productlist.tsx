@@ -9,7 +9,7 @@ const Products = [
     category: "fixing",
     price: "500.00",
     imageUrl:
-      "/chwomin 2.jpg",
+      "/images/chwomin 2.jpg",
     bgColor: "bg-amber-500",
   },
   {
@@ -18,7 +18,7 @@ const Products = [
     category: "fixing",
     price: "800.00",
     imageUrl:
-      "/chainees rice.jpg",
+      "/images/chaineesrice.jpg",
     bgColor: "bg-cyan-500",
   },
   {
@@ -27,7 +27,7 @@ const Products = [
     category: "spicy",
     price: "1000.00",
     imageUrl:
-      "/chainagrill.jpg",
+      "/images/chainagrill.jpg",
     bgColor: "bg-green-800",
   },
 ];

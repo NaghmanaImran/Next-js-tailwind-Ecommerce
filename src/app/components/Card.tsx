@@ -54,7 +54,7 @@ const FlotingImageContentBlock = () => {
       <div className="md:w-1/2 mt-6 md:mt-0">
         <div className="relative w-full h-full">
           <Image
-            src="/flotingimage.png"
+            src="/images/flotingimage.png"
             alt="Delicious food"
             width={500}
             height={500}

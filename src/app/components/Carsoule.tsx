@@ -8,12 +8,12 @@ const Carsoule = () => {
         <div className="py-4 px-2 mx-auto max-w-7xl sm:py-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-6">
             {[
-              { imgSrc: "/prwens.jpg", alt: "Prawns", title: "PRAWNS" },
-              { imgSrc: "/chawomin.jpeg", alt: "Chawmin", title: "CHAWOMIN" },
-              { imgSrc: "/menchurian.jpg", alt: "Menchurian", title: "MENCHURIAN" },
-              { imgSrc: "/stock.webp", alt: "Stock", title: "STOCK" },
-              { imgSrc: "/chwomin 2.jpg", alt: "Chawmin", title: "CHAWOMIN" },
-              { imgSrc: "/chainagrill.jpg", alt: "Grilled Chinese Dish", title: "CHAINAGRILL" },
+              { imgSrc: "/images/prwens.jpg", alt: "Prawns", title: "PRAWNS" },
+              { imgSrc: "/images/chawomin.jpeg", alt: "Chawmin", title: "CHAWOMIN" },
+              { imgSrc: "/images/menchurian.jpg", alt: "Menchurian", title: "MENCHURIAN" },
+              { imgSrc: "/images/stock.webp", alt: "Stock", title: "STOCK" },
+              { imgSrc: "/images/chwomin 2.jpg", alt: "Chawmin", title: "CHAWOMIN" },
+              { imgSrc: "/images/chainagrill.jpg", alt: "Grilled Chinese Dish", title: "CHAINAGRILL" },
             ].map((item, index) => (
               <div
                 key={index}
