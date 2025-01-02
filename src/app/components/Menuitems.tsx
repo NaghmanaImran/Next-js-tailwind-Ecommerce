@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import { Product } from "@/pages/types";
+import { Product } from "../types";
 import ProductCard from "./Productcard";
 import Image from "next/image";
 

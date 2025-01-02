@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Product } from '@/pages/types'
+import { Product } from '@/app/types'
 import Image from 'next/image'
 
 

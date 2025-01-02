@@ -40,7 +40,7 @@ const Navbar = () => {
                   </p>
                    {/* Image Logo */}
               <Image
-                src="/mypic.png"
+                src="/images/mypic.png"
                 width={500} // Replace with the path to your image
                 height={200} // Replace with the path to your image
                 alt="Logo"
